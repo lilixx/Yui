@@ -1,0 +1,129 @@
+﻿
+body {
+	/*background: url("../img/wallpaper.jpg") no-repeat fixed left top / cover  #285E8E;*/
+	background-size: cover;
+	background-color:#285E8E;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 10px;
+	color: #fff;
+}
+
+.header h2 {
+	padding: 0 6px 5px;
+	margin: 0;
+}
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.15);
+	padding: 10px;
+	color: #fff;
+}
+
+.left-nav {
+	background-color: rgba(0, 0, 0, 0.20);
+	color: #FFF;
+	display: table-cell;
+	float: none!important;
+}
+
+#UsuarioUsername, #UsuarioPassword {
+   width: 320px;
+}
+
+.login-logo {
+  margin: 60px auto 0;
+  padding: 15px;
+  text-align: center;
+  width: 247px;
+}
+
+
+.widget {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 30px;
+  position: relative;
+  width: auto;
+}
+
+.login-content {
+  color: #FFFFFF;
+  margin: auto;
+  width: 350px;
+}
+
+.widget-content {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(254, 182, 203, 0.5);
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px 15px !important;
+}
+
+.form-title {
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-bottom: 10px;
+	margin-left: 0;
+	text-align: center;
+}
+
+.input-group {
+  border-collapse: separate;
+  display: table;
+  position: relative;
+}
+
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+  border-radius: 6px 0 0 6px;
+  font-size: 14px;
+  height: 45px;
+  line-height: 1.33;
+  padding: 10px 16px;
+}
+.input-group .form-control {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+
+.input-group-addon {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px 4px 4px 4px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+textarea, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], .uneditable-input {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+  min-height: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #EEEEEE;
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  vertical-align: middle;
+  width: 100%;
+}
+

@@ -1,0 +1,162 @@
+/*
+ *  CSS para Mansión Teodolinda
+ * 
+ */
+
+/* Tipografía */
+
+h2, h3, p,
+.navbar-inverse  .navbar-nav > li > a,
+input, button, .btn-default,
+.navbar-form .form-control {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Logotipo centrado */
+ 
+.fondo {
+  background: url(../img/fondo.jpg) no-repeat center center; 
+  background-size: cover;
+  text-align: center;
+} 
+
+.logo {
+  max-height:120px;max-width:50%;
+} 
+
+/* Bajar contenido */
+
+.contenido {
+  padding-top: 220px;
+}
+
+@media screen and (max-width: 640px) {
+.contenido {
+  padding-top: 140px;
+}
+}
+
+/* Cuadro informativo - Principal */
+
+.resaltado {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 10px;
+  font-size:20px;
+  background: #faf596;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #c8be09;
+}
+
+.resaltado > li:last-child {
+  padding-bottom: 10px;
+}
+
+.habitaciones-total {
+  color: #3b15f4;
+}
+
+.habitaciones-libres {
+  color: #15f425;
+}
+
+.habitaciones-ocupadas {
+  color: #f4152b;
+}
+
+/* Lista en Dashboard */
+
+.dashboard-list {
+  text-decoration: none;
+  list-style: none;
+  font-size:14px;
+}
+
+/* Lista en Dashboard */
+
+.dashboard-list a:hover {
+  text-decoration: none;
+}
+
+/* DEJAR DE ÚLTIMO: CSS PARA MENÚS */
+
+<!-- SmartMenus core CSS (required) -->
+<link href="../css/sm-core-css.css" rel="stylesheet" type="text/css" />
+
+<!-- "sm-blue" menu theme (optional, you can use your own CSS, too) -->
+<link href="../css/sm-blue/sm-blue.css" rel="stylesheet" type="text/css" />
+
+<!-- #main-menu config - instance specific stuff not covered in the theme -->
+<style type="text/css">
+
+	#main-menu {
+		position:relative;
+		z-index:9999;
+		width:auto;
+	}
+	#main-menu ul {
+		width:12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+	}
+
+</style>
+
+
+#menu-button.collapsed {
+  display:none;
+}
+/*
+#menu-button:before {
+  content:'';
+}
+
+#menu-button.collapsed:before {
+  content:'';
+  display:none;
+}
+*/
+
+@media screen and (max-width: 640px) {
+  /* show the button on small screens */
+  #menu-button {
+    display:inline;
+  }
+  /* hide the menu when it has the "collapsed" class set by the script */
+  #main-menu.collapsed {
+    display:none;
+  }
+}
+
+.svg-menu img {
+  width: 1.25em;
+  color:#fff;
+}
+
+.svg-menu a:hover,
+#menu-button {
+  text-decoration: none;
+  color:#fff;
+  cursor:pointer;
+}
+  
+  /* header del layout */
+  
+  .navbar-fixed-top, .navbar-fixed-bottom {
+position: relative !important;
+
+}
+
+/*color de los iconos*/
+
+.glyphicon.glyphicon-pencil, .glyphicon.glyphicon-remove,
+.glyphicon.glyphicon-search,.glyphicon.glyphicon-plus-sign,
+.glyphicon.glyphicon-folder-close, .glyphicon.glyphicon-trash,
+.glyphicon.glyphicon-new-window { 
+  color: #247EAB;
+} 
+
+#FolioCargoid.form-control {
+  width: 80% !important;
+  display: initial !important;
+}
+  
